@@ -6,7 +6,7 @@ import { HuePicker } from 'react-color';
 import data from '../data.json';
 
 const widthArr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-const Chart = () => {
+const BarChart = () => {
 	let rootChart = useRef();
 	let firstRender = useRef(true)
 	const [config, setConfig] = useState({
@@ -179,4 +179,4 @@ const Chart = () => {
 	)
 }
 
-export default Chart
+export default BarChart

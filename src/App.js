@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Chart from './components/Chart';
 import LineChart from './charts/LineChart'
+// import BarChart from './charts/BarChart';
 
 function App() {
   return (
     <div className="App">
-      {/* <Chart /> */}
+      {/* <BarChart /> */}
       <LineChart />
     </div>
   );
